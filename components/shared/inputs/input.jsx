@@ -8,8 +8,8 @@ const InputComponent = ({
 	isLabelRequired,
 }) => {
 	return (
-		<div>
-			<Label className='flex items-center gap-1 mb-2'>
+		<div className='mt-6'>
+			<Label className='flex items-center gap-1 mb-3'>
 				{isLabelRequired && <p className='text-red-500'>*</p>}
 				{labelText}
 			</Label>
