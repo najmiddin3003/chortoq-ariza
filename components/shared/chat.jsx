@@ -18,7 +18,7 @@ export default function Chat() {
 		<>
 			<button
 				onClick={() => setOpen(true)}
-				className='fixed bottom-6 right-6 bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-700 transition z-40'
+				className='fixed bottom-15 right-6 bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-700 transition z-40'
 			>
 				Chat
 			</button>

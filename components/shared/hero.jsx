@@ -8,6 +8,7 @@ import Location from './location'
 import PrivateInfoHero from './private-info-hero'
 import ProblemImage from './problem-image'
 import SoundMessage from './sound-message'
+import SuccessMessage from './success-message'
 
 const Hero = () => {
 	return (
@@ -43,6 +44,8 @@ const Hero = () => {
 					</div>
 				</div>
 			</div>
+			<SuccessMessage />
+
 			<div className='max-w-5xl mx-auto'>
 				<div className='mt-10 mb-10'>
 					<div className='flex items-start gap-10 '>
@@ -73,7 +76,7 @@ const Hero = () => {
 					<BsSendFill /> Arizani yuborish
 				</button>
 			</div>
-			<div className='max-w-5xl mx-auto mt-5 bg-[#362628] border-2 border-[#e9ba17] p-5 rounded-xl'>
+			<div className='max-w-5xl mx-auto mt-5 bg-[#362628] border-gray-200 border-2 dark:border-[#e9ba17] p-5 rounded-xl mb-30'>
 				<Alert />
 			</div>
 		</div>

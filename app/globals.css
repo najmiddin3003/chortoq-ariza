@@ -288,3 +288,24 @@
 .font-momo {
 	font-family: 'Momo Trust Display', sans-serif;
 }
+
+.scale-icon {
+	animation: scale-icon 2s infinite;
+}
+
+@keyframes scale-icon {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.3);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.bg-linear {
+	background-image: linear-gradient(120deg, #002e98 0%, purple 100%);
+}
