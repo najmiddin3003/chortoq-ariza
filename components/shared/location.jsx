@@ -4,7 +4,7 @@ import { Label } from '../ui/label'
 
 const Location = () => {
 	return (
-		<div className='bg-[#1e2836] rounded-xl p-5'>
+		<div className='dark:bg-[#1e2836] bg-white rounded-xl p-5'>
 			<div>
 				<div className='flex items-center gap-4'>
 					<div className='bg-green-700 rounded-md size-14 flex items-center justify-center'>

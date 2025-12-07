@@ -33,9 +33,9 @@ export default function Chat() {
 			{open && (
 				<div
 					onClick={e => e.stopPropagation()}
-					className='fixed bottom-4 right-4 w-[340px] h-[460px] bg-white dark:bg-[#121b2c] rounded-xl shadow-2xl border flex flex-col z-50 animate-slideUp'
+					className='fixed bottom-4 right-4 w-[400px] h-[460px] bg-white dark:bg-[#121b2c] rounded-xl shadow-2xl border flex flex-col z-50 animate-slideUp'
 				>
-					<div className='flex items-center justify-between px-4 py-3 border-b font-semibold'>
+					<div className='flex items-center justify-between px-4 py-3 border-b !font-light'>
 						<span>Jonli chat</span>
 						<button
 							onClick={() => setOpen(false)}
@@ -50,7 +50,7 @@ export default function Chat() {
 						{messages.map((msg, i) => (
 							<div
 								key={i}
-								className='bg-blue-500 text-white px-3 py-2 rounded-lg w-fit ml-auto'
+								className='bg-blue-500 text-white px-3 py-2 rounded-lg w-fit ml-auto !font-light'
 							>
 								{msg}
 							</div>
@@ -58,7 +58,7 @@ export default function Chat() {
 					</div>
 
 					{/* INPUT */}
-					<div className='border-t p-2 flex gap-2'>
+					<div className='border-t p-2 flex gap-2 '>
 						<input
 							value={text}
 							onChange={e => setText(e.target.value)}
